@@ -11,7 +11,7 @@ import getCatalogProductMedia from "./getCatalogProductMedia.js";
  */
 export function xformVariant(variant, variantMedia) {
   const primaryImage = variantMedia[0] || null;
-console.log("xformVariant",variant);
+// console.log("xformVariant",variant);
   return {
     _id: variant._id,
     attributeLabel: variant.attributeLabel,
